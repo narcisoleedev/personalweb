@@ -1,0 +1,77 @@
+body{
+    align-items: center;
+    background-color: white;
+}
+header{
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+#nome{
+    width: 40%;
+}
+#nome p{
+    font-size: 20px;
+    text-align: left;
+}
+#tabs{
+    width: 40%;
+}
+#tabs-list{
+    display: flex;
+    justify-content: space-between;
+}
+.tabs-items{
+    flex: 1;
+    list-style: none;
+    color: darkslategray;
+    text-decoration: none;
+}
+main{
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    border-bottom: 2px solid gray;
+}
+#description{
+    margin: 10px 10px; 
+    width: 30%; 
+}
+#description p{
+    color: darkslategrey; 
+    font-weight: lighter;
+    font-size: 15px;
+}
+#aboutme{
+    border-bottom: 1px solid lightgray;
+}
+#hobbiesandinterests{
+
+}
+#contact{
+
+}
+footer{
+    margin: 0 auto;
+    width: 40%;
+}
+.contact-div{
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact-div p{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(10, 10, 10)
+}
