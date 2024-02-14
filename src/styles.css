@@ -54,6 +54,47 @@ main {
 #aboutme {
   border-bottom: 1px solid lightgray;
 }
+#programmingskills{
+  border-bottom: 1px solid lightgray;
+}
+#programmingskills-flexbox{
+  display: flex;
+  flex-direction: row;
+}
+.no-list{
+  width: 90%;
+  list-style: none;
+  padding-left: 50px;
+}
+.no-list li{
+  width: 100px;
+  margin-bottom: 10px;
+}
+.no-list-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid darkgray;
+  margin-bottom: 10px;
+}
+.align-imgs{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 50%;
+}
+.space-imgs{
+  width: 80px;
+}
+.pl-img{
+  border-radius: 10px;
+}
+.no-list-div ul{
+  
+}
+.no-list-div li{
+  text-overflow: none;
+}
 #hobbiesandinterests {
 }
 #contact {
