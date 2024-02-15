@@ -95,9 +95,12 @@ main {
 .no-list-div li{
   text-overflow: none;
 }
-#hobbiesandinterests {
+#otherskills{
+  border-bottom: 1px solid lightgray;
 }
-#contact {
+#hobbiesandinterests{
+}
+#contact{
 }
 footer {
   margin: 0 auto;
